@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    background-image: url(../images/ana.jpg);
+}
+
+
+h1 {
+    font-size: 64pt;
+    margin:70px 100px 50px 90px;
+    font-family: mahmoud;
+    width: 550px;
+    text-shadow: 2px 2px 10px blue;
+    height: 200px;
+    background-color: white;
+    text-align: centers;
+}
+
+
+.c  {
+    border: 3px solid blue;
+    box-shadow: 2px 2px 50px black;
+    margin: 0px 200px;
+    padding: 20px;
+    background-color: white;
+    font-family: calibri;
+    display: inline-block;
+}
+
+
+p  {
+    font-size: 20pt;
+    text-align: justify;
+    margin-right: 20px;
+}
+
+
+@font-face {
+    font-family: mahmoud;
+    src: url("../fonts/h.ttf");
+}
+
+img  {
+    margin-left: 50px;
+}
+
+
+span  {
+    font-size: 64pt;
+    font-family: mahmoud;
+    display: inline-block;
+}
+
+.in  {
+    display: inline-block;
+}
+
+.circle  {
+    border: 1px solid rgb(0, 0, 255,);
+    background-color: rgba(0, 0, 255, 0.2);;
+    display: inline-block;
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    top: 383px;
+    left: 211px;
+    border-radius: 50%;
+}
